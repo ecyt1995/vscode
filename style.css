@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+}
+.banner img {
+    width: 100%;
+}
+.text {
+    /* border: 1px solid red; */
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+}
+
+.textbox {
+    /* border: 1px solid blue; */
+    width: 360px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+p {
+    text-align: left;
+    font-size: 16px;
+    color: #0008ff;
+}
+
+h2 {
+    font-size: 32px;
+    color: #b00000;
+}
+
+.slogan {
+    background-color: #b00000;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.slogan h2 {
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.recommand h2 {
+    font-size: 40px;
+    color: green;
+    text-align: center;
+}
+
+.classcontent {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.classbox {
+    width: 320px;
+    box-shadow: 0 0 10px #00000030;
+    padding: 20px;
+}
+
+.classbox h3 {
+    font-size: 32px;
+    color: black;
+}
+
+.classbox p {
+    color: gray;
+}
+
+.classbox .p-blue {
+    color: #0496cf;
+}
+
+.classbox p s {
+    font-size: 16px;
+}
+
+.classbox p span {
+    font-size: 20px;
+    color: #b00000;
+    font-weight: bold;
+}
+
+.classbox .p-center {
+    text-align: center;
+}
+
+.classbox img {
+    width: 100%;
+}
+
+.classbox .div-center a {
+    background-color: #b00000;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.classbox .div-center a:hover {
+    background-color: #5c0000;
+}
+
+.classbox button {
+    background-color: #b00000;
+    color: #ffffff;
+    border: none;
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.classbox .div-center {
+    text-align: center;
+}
+
+.classbox button:hover {
+    cursor: pointer;
+    background-color: #5c0000;
+}
+
+@media (min-width:640px) and (max-width:1199px) {
+    
+    .text {
+        width: 80%;
+    }
+    
+    .classcontent {
+        width: 80%;
+    }
+
+    .classbox {
+        width: 80%;
+        margin-right:10px
+    }
+
+}
+@media (max-width: 639px) {
+    #wrap {
+
+        width: 100%;
+        margin: auto;
+    }
+
+    .text {
+        /* flex-direction: column; */
+        display: block;
+        width: 80%;
+    }
+
+    .textbox {
+        width: 80%;
+        margin: auto;
+    }
+
+    .classcontent{
+        display: block;
+        width: 90%;
+    }
+
+    .classbox{
+        width: 90%;
+        margin-bottom: 20px;
+        margin: auto;
+    }
+
+}
